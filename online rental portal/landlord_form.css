@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(237, 234, 240);
+}
+
+.container{/*container is the class that 'contains' all the seven forms*/
+    border: 0px;
+    width:600px;
+    box-sizing: content-box;
+    height: 700px;
+    margin: 10% auto;
+    position: relative;
+    top: -40px;
+    left: 5px;
+    padding: 20px; 
+    overflow: hidden;
+}
+
+#sub_container1,#sub_container2,#sub_container3,#sub_container4,#sub_container5,#sub_container6,#sub_container7{
+    background-color: white;
+    border-radius: 5px;
+}
+
+#sub_container6{
+   height:390px;
+}
+  
+.container form{
+    position:absolute;
+    width: 600px;
+    top:-5px;
+    left: 10px;
+    transition: 0.25s;
+    
+}
+
+#form1{
+    left:20px;
+}
+
+h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(63, 63, 68) ;
+    text-align: center;
+    position: relative;
+    
+}
+
+form input{
+    width: 400px;
+    height: 15px;
+    padding: 15px;
+    margin: 12px;
+    font-size: 15px;
+    color: rgb(49, 15, 92);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid gray;
+    position:relative;
+    top: 18px;
+    left:70px;
+}
+
+
+#properties, #Cities, #Provinces{ 
+    color: rgb(49, 15, 92);
+    width: 445px;
+    padding:15px;
+    border-radius:15px;
+    position: relative;
+    left:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    border: 2px solid gray;
+    outline: none;
+    margin:12px;
+}
+
+#phonecodes{/*code for styling drop down list for the phone codes in form1*/
+    color: rgb(49, 15, 92);
+    width:100px;
+    padding:15px;
+    border-radius:15px;
+    position: relative;
+    left:68px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    border: 2px solid gray;
+    outline: none;
+    position: relative;
+    top: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 40px;
+    
+}
+
+#properties{
+    margin-top: 60px;
+    margin-bottom: 35px;
+    position: relative;
+    left:55px;
+
+}
+
+#number{
+    position: relative;
+    left:52px;
+    top:5px;
+    width:310px;
+    height:20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left:0;
+   
+}
+
+.inputtext{
+    position: relative;
+    left:57px;
+    width:412px;
+    height: 20px;
+    margin-bottom: 2px;
+
+
+}
+
+#Cities, #Provinces{
+    position: relative;
+    left:60px;
+    top: 27px;
+    margin-top:2px;
+}
+
+#Provinces{
+    margin-bottom: 30px;
+}
+
+form button{
+    width: 150px;
+    height: 45px;
+    background: rgb(49, 15, 92);
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#Next2, #Next3, #Next4, #Next5{
+  position: relative;
+  left: 300px;
+  top: 67px;
+}
+
+#Next1{
+    position: relative;
+    left: 450px;
+   top: 67px;
+}
+
+#Next6{
+    position: relative;
+    bottom: 67px;
+    left: 300px;
+}
+
+#Next7, #Back6{
+    top:5px;
+}
+
+#Back1, #Back2, #Back3, #Back4{
+    position: relative;
+    top:70px;
+    background: rgb(237, 234, 240);
+    color: rgb(15, 159, 226);
+    border: 0; 
+  }
+  
+  #Back5{
+      position:relative;
+      bottom:67px;
+  }
+
+  #Back5, #Back6{
+    background: rgb(237, 234, 240);
+    color: rgb(15, 159, 226);
+    border: 0; 
+  }
+
+  #Next7{
+    position:relative;
+    left:300px;
+  }
+
+#duration{
+    width: 100px;
+    height: 10px;
+    padding: 10px;
+    position:relative;
+    left:120px;
+    top:-15px; 
+}
+
+p{
+    font-size: 15px;
+    color: rgb(63, 63, 68);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ 
+#move_in, #move_out{
+    position:relative;
+    left: 360px;
+    top: -142px;
+    width: 200px;
+    height: 10px;
+    padding: 7px;
+    margin: -10px;
+    border-radius: 5px;
+     
+}
+
+
+#one, #two{
+    position: relative;
+    left: 30px;
+} 
+ #one{
+     top: 15px;
+ }
+
+#three, #four{
+    position:relative;
+    left: 360px;
+    bottom:135px;  
+}
+
+
+  #form2,#form3,#form4,#form5,#form6,#form7{
+    left:700px;
+}
+

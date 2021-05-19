@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="utf-8">
+<meta name= "viewport" content="width=device-width, initial-scale=1.0">
+<title>List your place</title>
+<link type="text/css" href="landlord_form.css" rel="stylesheet"/>
+<link type="text/css" href="buttons.css" rel="stylesheet"/>
+<link type="text/css" href="dropdownlist.css" rel="stylesheet"/>
+<link type="text/css" href="file upload.css" rel="stylesheet"/>
+<link type="text/css" href="responsive.css" rel="stylesheet"/> 
+</head>
+
+<body>
+<div class="container">
+      
+<!--form1-->
+<form id="form1" action="www.submit.com" method="POST" >
+        <h3>Let us help you become a landlord</h3>
+        <br>
+        <div id="sub_container1">
+            <select id="properties">
+                <option value="" disabled selected hidden>Which property do you wish to list?</option>
+                <option value="Single-family home/house">Single-family home/House</option>
+                <option value="Apartment/Flat">Apartment/Flat</option>
+                <option value="Condo">Condo</option>
+                <option value="Co-op">Co-op</option>
+                <option value="Rooms for rent">Rooms for rent</option>
+                <option value="Student Accommodation">Student Accommodation</option>
+            </select>
+            <br>
+
+            <select id="phonecodes">
+                <option value="+263">+263</option>
+                <option value="+27">+27</option>
+                <option value="+260">+260</option>
+            </select>
+
+            <input id="number" type="text" placeholder="Enter your phone number" required/>
+            <div class="button">
+                <button type="button" id="Next1">Next</button></div></div>
+</form> 
+
+<!--form2-->
+<form id="form2" action="www.submit.com" method="POST">
+     <h3>How many rooms does your listing have?</h3>
+     <div id="sub_container2">
+         <input type="number" placeholder="0 Bedrooms" required/>
+         <input type="number" placeholder="0 Kitchens" required/>
+         <input type="number" placeholder="0 Bathrooms" required/>
+         <input type="number" placeholder="0 Living rooms" required/>
+         <input type="number" placeholder="0 Car garages" required/>
+         <div class="button">
+             <button type="button" id="Back1">Back</button>
+             <button type="button" id="Next2">Next</button></div> </div>
+</form> 
+
+<!--form3-->
+<form id="form3" action="www.submit.com" method="POST">
+    <h3>Address</h3>
+    <div id="sub_container3">
+        <input class="inputtext" type="text" placeholder="House number" required/>
+        <input class="inputtext" type="text" placeholder="Street name" required/>
+
+        <select id="Cities">
+            <option value="" disabled selected hidden>City</option>
+            <option value="Harare">Harare</option>    
+            <option value="Bulawayo">Bulawayo</option>
+            <option value="Chitungwiza">Chitungwiza</option>
+            <option value="Mutare">Mutare</option>
+            <option value="Epworth">Epworth</option>
+            <option value="Gweru">Gweru</option>
+            <option value="Kwekwe">Kwekwe</option>
+            <option value="Kadoma">Kadoma</option>
+            <option value="Masvingo">Masvingo</option>
+            <option value="Chinhoyi">Chinhoyi</option>
+            <option value="Norton">Norton</option>
+            <option value="Marondera">Marondera</option>
+            <option value="Ruwa">Ruwa</option>
+            <option value="Chegutu">Chegutu</option>
+            <option value="Zvishavane">Zvishavane</option>
+            <option value="Bindura">Bindura</option>
+            <option value="Beitbridge">Beitbridge</option>
+            <option value="Redcliff">Redcliff</option>
+            <option value="Victoria Falls">Victoria Falls</option>
+            <option value="Hwange">Hwange</option>
+            <option value="Rusape">Rusape</option>
+            <option value="Chiredzi">Chiredzi</option>
+            <option value="Kariba">Kariba</option>
+            <option value="Karoi">Karoi</option>
+            <option value="Chipinge">Chipinge</option>
+            <option value="Gokwe">Gokwe</option>
+            <option value="Shurugwi">Shurugwi</option>
+        </select>
+        
+        <select id="Provinces">
+            <option value="" disabled selected hidden>Province</option>
+            <option value="Harare">Harare</option>
+            <option value="Bulawayo">Bulawayo</option>
+            <option value="Manicaland">Manicaland</option>
+            <option value="Mashonaland Central">Mashonaland Central</option>
+            <option value="Mashonaland East">Mashonaland East</option>
+            <option value="Mashonaland West">Mashonaland West</option>
+            <option value="Masvingo">Masvingo</option>
+            <option value="Matebeleland North">Matebeleland North</option>
+            <option value="Matebeleland South">Matebeleland South</option>
+            <option value="Midlands">Midlands</option>
+        </select>
+        <div class="button">
+            <button type="button" id="Back2">Back</button>
+            <button type="button" id="Next3">Next</button></div></div>
+</form>
+
+<!--form4-->
+<form id="form4" action="www.submit.com" method="POST">
+    <h3>Which amenities do you offer?</h3>
+    <div id="sub_container4">
+        <label><input type="checkbox" name="Amenities" value="Wi-Fi"/> <span>Wi-Fi </span><br>
+        </label>
+        <label><input type="checkbox" name="Amenities" value="Satellite TV"/> <span>Satellite TV</span><br>
+        </label>
+        <label><input type="checkbox" name="Amenities" value="Dish washer"/><span>Dish washer</span><br>
+        </label>
+        <label><input type="checkbox" name="Amenities" value="Air conditioning"/><span>Air conditioning</span><br>
+        </label>
+        <label><input type="checkbox" name="Amenities" value="Washing machine"/><span>Washing machine</span><br>
+        </label>
+        <label><input type="checkbox" name="Amenities" value="Bed"/><span>Bed</span></label>
+        <div class="button">
+            <button type="button" id="Back3">Back</button>
+            <button type="button" id="Next4">Next</button></div></div>
+</form>
+
+<!--form5-->
+<form id="form5" action="www.submit.com" method="POST">
+    <h3>Rules and Restrictions</h3>
+    <div id="sub_container5">
+    <p class="rule">Do you allow smoking?</p>
+    <label><input type="radio" name="rule1" value="Yes" checked/><span>Yes</span></label><br>
+    <label><input type="radio" name="rule1" value="No"/><span>No</span></label>
+    
+    <p class="rule">Do you allow social gatherings or parties?</p>
+    <label><input type="radio" name="rule2" value="Yes" checked/><span>Yes</span></label><br>
+    <label><input type="radio" name="rule2" value="No"/><span>No</span></label>
+    
+    <p class="rule">Do you allow pets?</p>
+    <label><input type="radio" name="rule3" value="Yes" checked/><span>Yes</span> </label><br>
+    <label><input type="radio" name="rule3" value="No"/><span>No</span></label>
+    
+    <p class="rule">Do you allow loud music?</p>
+    <label><input type="radio" name="rule4" value="Yes" checked/><span>Yes</span></label> <br>
+    <label><input type="radio" name="rule4" value="No"/><span>No</span></label>
+    
+    <div class="button">
+        <button type="button" id="Back4">Back</button>
+        <button type="button" id="Next5">Next</button></div></div>
+</form>
+
+<!--form6-->        
+<form id="form6" action="www.submit.com" method="POST">
+                   
+        <h3>Rent and Availability</h3>
+        <div id="sub_container6">
+        <div class="amount">
+            <p id="one">Rent amount required</p>
+            <div id="select_box1">
+            <select name="currency">
+            <option value="usd">USD</option>
+            <option value="zwl">ZWL</option>
+            <option value="zar">ZAR</option>
+            <option value="eur">EUR</option>
+            <option value="gbp">GBP</option>
+            </select>
+        </div>
+        
+        <input id="duration" type="text" placeholder="amount" required/>
+        <div id="select_box2">
+        <select>
+            <option value="monthly">Monthly</option>
+            <option value="monthly">Weekly</option>
+            <option value="monthly">Daily</option>
+            <option value="monthly">Yearly</option>
+        </select>
+            </div>
+        </div>
+        
+        <p id="two">Which bills are included in the rent?</p>
+        <div class="bills">
+        <label><input type="checkbox" name="bills" value="Water"/> <span>Water </span><br>
+        </label>
+        
+        <label><input type="checkbox" name="bills" value="Electricity"/> <span>Electricity</span><br>
+        </label>
+        
+        <label><input type="checkbox" name="bills" value="City Council"/><span>City Council</span><br>
+        </label>
+        
+        <label><input type="checkbox" name="bills" value="Internet"/><span>Internet</span><br>
+        </label></div>
+        
+        
+        <p id="three">When should they move in?</p>
+        <input id="move_in" type="date" required/>
+        <p id="four">When should they move out?</p>
+        <input id="move_out" type="date" required/>
+        
+        <div class="button">
+            <button type="button" id="Back5">Back</button>
+        <button type="button" id="Next6">Next</button></div></div>
+</form> 
+
+<!--form7-->
+<form id="form7" action="www.submit.com" method="POST" enctype="multipart/form-data">
+        <h3>Show your place</h3>
+        <div id="sub_container7">
+        <div class="file-input">
+            <input type="file" id="file" class="file" multiple required/>
+            <label for="file">Upload photos</label>
+            </div>
+        
+            <div class="box">  
+             <div id="circle"></div>    
+            <div id="triangle1">
+                <div id="triangle2"></div>
+               </div>
+            </div>
+        
+        <div class="button">
+        <button type="button" id="Back6">Back</button>
+        <button type="Submit" id="Next7">Publish Listing</button></div></div>
+</form>
+</div> 
+<script src="landlord_form.js" type="text/javascript"></script>
+</body>
+</html>

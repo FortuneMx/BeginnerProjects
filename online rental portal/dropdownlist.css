@@ -1,0 +1,28 @@
+
+#select_box1 select{/*select for rent currency*/
+    width: 50px;
+    border:0;
+    position:relative;
+    bottom:-20px;
+    left:45px;
+    background: none;
+    border: 0;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(49, 15, 92);
+
+}
+
+#select_box2 select{
+    width: 75px;
+    border:0;
+    position:relative;
+    left: 300px;
+    bottom:60px;
+    background: none;
+    border: 0;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(49, 15, 92);
+
+}

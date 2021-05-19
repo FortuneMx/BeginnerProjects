@@ -1,0 +1,187 @@
+@media only screen and (max-width: 770px){
+    .container{
+        width:336px;
+        position: relative;
+        left:-3px;
+    }
+    #properties{
+        width: 300px;
+        position: relative;
+        left:-20px;
+        font-size:12px;
+        margin:35px;  
+    }
+    #number{
+        position: relative;
+        left:0px;
+        top:5px;
+        width:170px;
+        height:17px;
+        font-size: 12px;   
+
+    }
+    #phonecodes{/*code for styling drop down list for the phone codes in form1*/
+        width:100px;
+        position: relative;
+        left:17px;
+        font-size:12px;
+        position: relative;
+        top: 5px;
+        
+    }
+    .container form{
+        position:absolute;
+        width: 335px;
+        top:50px;
+        left: 10px;
+    }
+    #Next1{
+        position: relative;
+        left:190px;
+    }
+    
+    #Next2, #Next3, #Next4, #Next5,#Next6,#Next7{
+        position: relative;
+        left: 80px;
+        width:100px;
+      }
+
+    #Back1, #Back2, #Back3, #Back4,#Back5,#Back6{
+        position: relative;
+        left:-35px;
+    }
+    form input{
+        width: 270px;
+        height: 15px;
+        padding: 15px;
+        margin: 12px;
+        font-size: 12px;
+        position:relative;
+        left:0px;
+    }
+    #Cities,#Provinces{
+        width: 300px;
+        position: relative;
+        left:0px;
+        font-size:12px;  
+    }
+    .inputtext{
+        position: relative;
+        left:0px;
+        width:265px;
+    }
+    label>input[type ="checkbox"] + *::before{
+        position: relative;
+        left: 85px;
+        margin-right:6em;
+    }
+    label>input[type ="radio"] + *::before{
+        position: relative;
+        left: 45px;
+        margin-right:3em;   
+        
+        }
+        .rule{
+            position: relative;
+            left:20px;
+            top: 20px;
+        }
+        #select_box1 select{/*select for rent currency*/
+            width: 50px;
+            font-size: 12px;
+            position:relative;
+            left:25px;
+            
+        
+        }
+        
+        #select_box2 select{
+            width: 75px;
+            font-size: 12px;
+            position:relative;
+            left: 230px;
+            bottom: 57px;
+            
+            
+        }
+        #duration{
+            width: 100px;
+            font-size: 12px;
+            position:relative;
+            left:80px;
+            text-align: center;
+            
+        }
+        #move_in, #move_out{
+            position:relative;
+            left: 25px;
+            top: -35px;
+            padding: 7px;
+            margin: 2px;
+               
+        }
+        #sub_container6{
+            height:500px;
+         }
+        #three, #four{
+            position:relative;
+            left: 25px;
+            bottom:20px;         
+        }
+        #Back5,#Next6{
+            bottom:-15px;
+        }
+        #three{
+            bottom:5px;
+        }
+        #move_in{
+            top:-20px;
+        }
+        #sub_container7{
+            height: 350px;
+        }
+        .box{
+            width:305px;
+            height:320px;
+            position: relative;
+            bottom: 35px;
+            left: 15px;
+            margin-top: 2px;
+            
+        }
+        #triangle1{
+            position: relative;
+            top:100px;
+            left: 50px;         
+        
+        }
+        
+        #triangle2{/*the bigger triangle*/
+            position: relative;
+            bottom:40px;
+            left: 10px;
+            
+        }
+        
+        #circle{
+            position: relative;
+            top: 70px;
+            left:65px
+        }
+        .file-input label{/*code to style your own custom file upload button*/
+            position:relative;
+            top: 270px;
+            left:40px;
+            width:250px;
+                     
+            }
+        h3 {
+            font-size: 20px;
+        }
+        
+
+        
+
+
+
+}

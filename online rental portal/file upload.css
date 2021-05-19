@@ -1,0 +1,80 @@
+.file{/*code to hide the original file upload input*/
+    opacity:0;
+    width:0.1px;
+    height:0.1px;
+    position:absolute;
+}
+
+.file-input label{/*code to style your own custom file upload button*/
+display:block;
+position:relative;
+top: 350px;
+left:100px;
+width:350px;
+height:50px;
+border-radius: 25px;
+background: rgb(15, 159, 226);
+box-shadow: 0 4px 7px rgba(0,0,0,0.4);
+display:flex;
+align-items:center;
+justify-content: center;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+transition: transform .2s ease-out;
+z-index: 100;
+
+}
+
+.box{
+    width:570px;
+    height:450px;
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+    background-color: rgb(248,246,246);
+    
+}
+
+
+#sub_container7{
+    height: 480px;
+}
+
+#triangle1{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(218,216,216);
+    position: relative;
+    top: 150px;
+    left: 150px;
+    z-index:95;/*the shape with the higher z-index value appears on top*/
+    
+
+}
+
+#triangle2{
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 140px solid rgb(165, 161, 161);
+    position: relative;
+    bottom:40px;
+    left: 10px;
+    z-index:1;
+    opacity:0.3;
+}
+
+#circle{
+    width: 30px;
+    height: 30px;
+    background: rgb(218,216,216);
+    border-radius:50%;
+    position: relative;
+    top: 135px;
+    left:145px
+}
+

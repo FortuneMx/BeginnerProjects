@@ -1,0 +1,106 @@
+/*code for styling radio buttons*/
+ label>input[type="radio"]{
+    display: none;
+}
+
+ label>input[type ="radio"] + *::before{
+content: "";
+display: inline-block;
+vertical-align:bottom;
+position: relative;
+left: 150px;
+top: 15px;
+margin-right:10em;
+margin-bottom: 15px;
+width:1rem;
+height:1rem;
+border-radius: 50%;
+border-style:solid;
+border-width:0.1rem;
+border-color:gray;
+
+}
+
+ label>input[type="radio"]:checked + *::before{
+    /*background: radial-gradient(rgb(49, 15, 92) 0%, rgb(49, 15, 92) 40%, transparent 50%, transparent);*/
+    background: rgb(49, 15, 92);
+    border-color: rgb(49, 15, 92);
+    
+}
+
+ label>input[type ="radio"]~span{
+color: gray;
+
+}
+
+ label>input[type="radio"]:checked + *{
+    color: rgb(49, 15, 92);
+}
+
+.rule{
+    font-size: 15px;
+    color: rgb(63, 63, 68);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left:130px;
+    top: 20px;
+}
+
+/*code for styling checkboxes*/
+ label>input[type="checkbox"]{
+    display: none;
+}
+
+ label>input[type ="checkbox"] + *::before{
+content: "";
+display: inline-block;
+position: relative;/* changes position of the actual checkboxes*/
+left: 150px;/* changes position of the actual checkboxes*/
+top: 25px;/* changes position of the actual checkboxes*/
+vertical-align:bottom;
+width:1rem;
+height:1rem;
+margin-right:10em;/* changes position of the labels but doesn't affect the boxes*/
+margin-bottom: 25px;/* changes position of the labels but doesn't affect the boxes*/
+border-radius: 10%;
+border-style:solid;
+border-width:0.1rem;
+border-color:gray;
+
+}
+
+ label>input[type="checkbox"]:checked + *::before{
+    content:"";
+    color:white;
+    text-align: center;
+    background: rgb(49, 15, 92);
+    border-color: rgb(49, 15, 92);
+    
+}
+
+ label>input[type ="checkbox"]~span{
+    color: gray;
+    }
+
+  label>input[type="checkbox"]:checked + *{
+            color: rgb(49, 15, 92);
+        }
+
+.bills input[type ="checkbox"] + *::before{
+position: relative;/* changes position of the actual checkboxes*/
+left: 200px;/* changes position of the actual checkboxes*/
+top: 25px;/* changes position of the actual checkboxes*/
+vertical-align:bottom;
+width:1rem;
+height:1rem;
+margin-right:13em;/* changes position of the labels but doesn't affect the boxes*/
+margin-bottom: 25px;
+}
+
+.bills input[type ="checkbox"]~span{
+    position: relative;
+    bottom: 30px;
+    right: 145px
+    }
+
+    
